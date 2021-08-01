@@ -1,0 +1,40 @@
+@-moz-document url-prefix(view-source:){
+*|*:root{
+background:#111;
+color:#ddd;
+}
+pre[id]:before,
+span[id]:before{
+color:#ccc;
+}
+.highlight .start-tag,
+.highlight .end-tag{
+color:#df00df;
+}
+.highlight .comment{
+color:#80ff80;
+}
+.highlight .cdata{
+color:#c06;
+}
+.highlight .doctype,
+.highlight .markupdeclaration{
+color:#689bc4
+}
+.highlight .pi{
+color:#d047ca
+}
+.highlight .entity{
+color:#ff4500;
+}
+.highlight .attribute-name{
+color:#fff;
+}
+.highlight .attribute-value{
+color:#09f;
+}
+.highlight .error,
+.highlight .error>:-moz-any(.start-tag,.end-tag,.comment,.cdata,.doctype,.pi,.entity,.attribute-name,.attribute-value){
+color:#ff8080
+}
+}
